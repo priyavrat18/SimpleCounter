@@ -1,40 +1,57 @@
-import React,{Component} from 'react'
-import './Counter.css'
+import React, { Component } from "react";
+import "./Counter.css";
+import propTypes from "prop-types";
 
-class Counter extends Component{
-    constructor(){
-        super();
-        this.state={
-            counter:0
-        }
-        this.increment=this.increment.bind(this);
-        this.decrement=this.decrement.bind(this);
-
-    }
-
-
-    render (){
-        return(
-            <div className="counter">
-                <button onClick={this.decrement}>-1</button>
-                <span className="count">{this.state.counter}</span>
-                <button onClick={this.increment}>+1</button>
-            </div>
-        )
-    }
-     increment(){
-        this.setState({
-            counter : this.state.counter +1
-        });
-    }
-
-    decrement(){
-        this.setState({
-            counter : this.state.counter -1
-        });
-    }
+class Counter extends Component {
+  render() {
+    return (
+      <div className="Counter">
+        <CounterButton />
+        <CounterButton by={5} />
+        <CounterButton by={10} />
+      </div>
+    );
+  }
 }
 
+class CounterButton extends Component {
+  constructor() {
+    super();
+    this.state = {
+      counter: 0,
+    };
+    this.increment = this.increment.bind(this);
+    this.decrement = this.decrement.bind(this);
+  }
 
+  render() {
+    return (
+      <div className="counter">
+        <button onClick={this.decrement}>-{this.props.by}</button>
+        <span className="count">{this.state.counter}</span>
+        <button onClick={this.increment}>+{this.props.by}</button>
+      </div>
+    );
+  }
+  increment() {
+    this.setState({
+      counter: this.state.counter + this.props.by,
+    });
+  }
 
-export default Counter
+  decrement() {
+    this.setState({
+      counter: this.state.counter - this.props.by,
+    });
+  }
+}
+
+CounterButton.defaultProps = {
+  by: 1,
+};
+
+CounterButton.propTypes = {
+  by: propTypes.number,
+};
+
+export default Counter;
