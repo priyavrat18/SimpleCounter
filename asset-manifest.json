@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/SimpleCounter/static/css/main.5ff2cb41.chunk.css",
-    "main.js": "/SimpleCounter/static/js/main.59579740.chunk.js",
-    "main.js.map": "/SimpleCounter/static/js/main.59579740.chunk.js.map",
+    "main.js": "/SimpleCounter/static/js/main.58c08bfe.chunk.js",
+    "main.js.map": "/SimpleCounter/static/js/main.58c08bfe.chunk.js.map",
     "runtime-main.js": "/SimpleCounter/static/js/runtime-main.42026709.js",
     "runtime-main.js.map": "/SimpleCounter/static/js/runtime-main.42026709.js.map",
     "static/js/2.5b05073c.chunk.js": "/SimpleCounter/static/js/2.5b05073c.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.42026709.js",
     "static/js/2.5b05073c.chunk.js",
     "static/css/main.5ff2cb41.chunk.css",
-    "static/js/main.59579740.chunk.js"
+    "static/js/main.58c08bfe.chunk.js"
   ]
 }
