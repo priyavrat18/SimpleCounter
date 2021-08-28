@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/SimpleCounter/static/css/main.5ff2cb41.chunk.css",
+    "main.css": "/SimpleCounter/static/css/main.ec7e6b7a.chunk.css",
     "main.js": "/SimpleCounter/static/js/main.58c08bfe.chunk.js",
     "main.js.map": "/SimpleCounter/static/js/main.58c08bfe.chunk.js.map",
     "runtime-main.js": "/SimpleCounter/static/js/runtime-main.42026709.js",
@@ -10,13 +10,13 @@
     "static/js/3.9a79756c.chunk.js": "/SimpleCounter/static/js/3.9a79756c.chunk.js",
     "static/js/3.9a79756c.chunk.js.map": "/SimpleCounter/static/js/3.9a79756c.chunk.js.map",
     "index.html": "/SimpleCounter/index.html",
-    "static/css/main.5ff2cb41.chunk.css.map": "/SimpleCounter/static/css/main.5ff2cb41.chunk.css.map",
+    "static/css/main.ec7e6b7a.chunk.css.map": "/SimpleCounter/static/css/main.ec7e6b7a.chunk.css.map",
     "static/js/2.5b05073c.chunk.js.LICENSE.txt": "/SimpleCounter/static/js/2.5b05073c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.42026709.js",
     "static/js/2.5b05073c.chunk.js",
-    "static/css/main.5ff2cb41.chunk.css",
+    "static/css/main.ec7e6b7a.chunk.css",
     "static/js/main.58c08bfe.chunk.js"
   ]
 }
