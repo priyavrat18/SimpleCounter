@@ -81,9 +81,6 @@ class Counter extends Component {
 class CounterButton extends Component {
   constructor() {
     super();
-    this.state = {
-      counter: 0,
-    };
   }
 
   render() {
